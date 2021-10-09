@@ -1,0 +1,56 @@
+<!--main.wxml-->
+
+
+<view class="content"></view>
+  <!--pics文件夹下的background.jpg文件-->
+  <image class='back' src="../../image/封面.png" mode="aspectFill"></image>
+  <!--页面其它部分-->
+
+
+
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+   <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>  -->
+
+  <view class="ID_Badge">
+
+    <view>
+      <text class='ID_info'>{{position}}</text>
+    </view>
+    <view>
+      <text class='ID_info'>{{lesson}}</text>
+    </view>
+    <view>
+      <text class='ID_info'>{{lessons}}</text>
+    </view>
+    <view>
+      <image class='pic' mode='widthFix' src='../../image/11.gif' bindtap='previewImage'></image>
+    </view>
+  </view>
+
+  
+  <button  bindtap='logBtn1' class='btn1' >
+    <image class='btnImg' src='../../image/兔子1.png'></image>
+    <view> 单机模式</view>
+ </button>
+
+ <button  bindtap='logBtn2' class='btn2' >
+    <image class='btnImg' src='../../image/兔子2.png'></image>
+    <view> 联机模式</view>
+ </button>
+
+ <button  bindtap='logBtn3' class='btn3' >
+    <image class='btnImg' src='../../image/兔子3.png'></image>
+    <view> 游戏规则</view>
+ </button>
+
+
+</view>

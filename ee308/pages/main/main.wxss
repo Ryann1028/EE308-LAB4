@@ -1,0 +1,152 @@
+/**main.wxss**/
+
+
+
+.back{
+  width: 120%;
+  height: 100%;
+  position:fixed;
+  background-size: 150% 120%;
+  z-index: -1;
+  margin-left: -75rpx;
+
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 400rpx;
+}
+
+.ID_Badge {
+  padding-top: 20rpx;
+  color: blue;
+
+}
+
+.ID_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 300rpx;
+}
+
+.pics {
+  margin-top: 130rpx !important;
+  width: 500rpx;
+}
+
+
+
+
+
+.btn1 {
+  width: 80%;
+  height: 95rpx;
+  margin-top: 100rpx;
+  margin-bottom: -15rpx;
+  background-color: rgb(143, 141, 138);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.btnImg {
+  margin-right: 8rpx;
+  width: 50rpx;
+  height: 50rpx;
+
+}
+
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0; 
+
+}
+
+.btn2 {
+  width: 80%;
+  height: 95rpx;
+  margin-top: 65rpx;
+  margin-bottom: -15rpx;
+  background-color: rgb(143, 141, 138);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.btnImg {
+  margin-right: 8rpx;
+  width: 50rpx;
+  height: 50rpx;
+
+}
+
+.btn2::after {
+  border-radius: 98rpx;
+  border: 0; 
+
+}
+
+
+.btn3 {
+  width: 80%;
+  height: 95rpx;
+  margin-top: 65rpx;
+  margin-bottom: -15rpx !important;
+  background-color: rgb(143, 141, 138);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.btnImg {
+  margin-right: 8rpx;
+  width: 50rpx;
+  height: 50rpx;
+
+}
+
+.btn3::after {
+  border-radius: 98rpx;
+  border: 0; 
+
+}
+
+.switchChange{
+  width: 105%;
+  height: 100%;
+  margin-bottom: -15rpx !important;
+  z-index: -1;
+  margin-left: -50rpx;
+
+}

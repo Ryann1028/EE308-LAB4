@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/cover/cover",
+    "pages/main/main",
+    "pages/award/award",
+    "pages/single/single",
+    "pages/rules/rules",
+    "pages/online/online"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "❤快来跟我一起博饼饼吧^_^",
+    "navigationBarTextStyle":"white"
+  },
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
+
+
+
+
